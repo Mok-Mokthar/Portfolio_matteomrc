@@ -1,0 +1,69 @@
+ .nav{
+    background-color: var(--black);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    .burgerSection{
+        margin: 2.5rem 3.8rem 2.5rem 1rem;
+        .burger{
+            width: 3.125rem;
+            height: 3.125rem;
+            cursor: pointer;
+        }
+        .DrawerBurger{
+            .externalLinkMenu{
+                
+            }
+            
+        }
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        img{
+            cursor: pointer;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .utils{
+        display: flex;
+        justify-content: space-around;
+        gap: 1.3rem;
+        .contact{
+            .user{
+                cursor: pointer;
+                width: 2.25rem;
+                height: 2.813rem;
+            }
+        }
+        .settings{
+            .gear{
+                width: 2.25rem;
+                height: 2.25rem;
+                padding: .313rem;
+                align-items: center;
+                cursor: pointer;
+                &:hover{
+                    animation:rotate 1.5s linear infinite both;
+                }
+            }
+        }
+    }
+}
+
+@keyframes rotate{
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+
+
+
+

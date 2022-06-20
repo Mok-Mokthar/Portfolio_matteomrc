@@ -1,0 +1,166 @@
+// xs, extra-small: 0px
+// sm, small: 600px
+// md, medium: 900px
+// lg, large: 1200px
+// xl, extra-large: 1536px
+
+@media screen and (min-width: 320px){
+    .nav{
+        .burgerSection{
+            margin: 2.5rem 3.8rem 2.5rem 1rem;
+            .burger{
+                width: 3.125rem;
+                height: 3.125rem;
+            }
+        }
+        .logo{
+            img{
+                width: 4.375rem;
+                height: auto;
+            }
+        }
+        .utils{
+            .contact{
+                .user{
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+            .settings{
+                .gear{
+                    margin-right: 1rem;
+                    &:hover{
+                        animation: none;
+                    } 
+                }
+            }
+        }
+    }
+    // footer{
+    //     .footerCopy{
+    //         margin-top: 2rem;
+    //         position: fixed;
+    //     }
+    // }
+}
+
+@media screen and (min-width: 576px){
+    .nav{
+        // background-color: green;
+        .burgerSection{
+            margin: 2.5rem 3.8rem 2.5rem 3rem;
+            .burger{
+                width: 3.125rem;
+                height: 3.125rem;
+            }
+        }
+        .logo{
+            img{
+                width: 6rem;
+                height: auto;
+            }
+        }
+        .utils{
+            .contact{
+                .user{
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+            .settings{
+                .gear{
+                    margin-right: 3rem;
+                    &:hover{
+                        animation: none;
+                    } 
+                }
+            }
+        }
+    }
+    // footer{
+    //     .footerCopy{
+    //         position: absolute;
+    //     }
+    // }
+}
+
+@media screen and (min-width: 776px){
+    .nav{
+        // background-color: red;
+        .burgerSection{
+            margin: 2.5rem 3.8rem 2.5rem 3rem;
+            .burger{
+                width: 3.125rem;
+                height: 3.125rem;
+            }
+        }
+        .logo{
+            img{
+                width: 6rem;
+                height: auto;
+            }
+        }
+        .utils{
+            .contact{
+                .user{
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+            .settings{
+                .gear{
+                    margin-right: 3rem;
+                    &:hover{
+                        animation: none;
+                    } 
+                }
+            }
+        }
+    }
+    
+    // footer{
+    //     .footerCopy{
+    //         position: absolute;
+    //     }
+    // }
+}
+
+@media screen and (min-width: 992px){
+    .nav{
+        // background-color: blue;
+        .burgerSection{
+            margin: 2.5rem 3.8rem 2.5rem 3rem;
+            .burger{
+                width: 3.125rem;
+                height: 3.125rem;
+            }
+        }
+        .logo{
+            img{
+                width: 6rem;
+                height: auto;
+            }
+        }
+        .utils{
+            .contact{
+                .user{
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+            .settings{
+                .gear{
+                    margin-right: 3rem;
+                    &:hover{
+                        animation:rotate 1.5s linear infinite both;
+                    }
+                }
+            }
+        }
+    }
+    // footer{
+    //     .footerCopy{
+    //         position: absolute;
+    //     }
+    // }
+}

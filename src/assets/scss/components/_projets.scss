@@ -1,0 +1,70 @@
+.projectsTitle, .projectTitle, .infoProjectTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.categorieButton, .projetButton{
+    display: flex;
+    margin: auto;
+    color: var(--white);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+.categorieButtonContainer, .projetButtonContainer{
+    margin-top: 1rem;
+}
+
+.projectsSection{
+    
+    
+}
+
+.projetContainer{
+    
+}
+
+.pictureProjetContainer, .logoCategorie, .infoProjectImageContainer{
+    img{
+        width: 50%;
+        height: auto;
+        display: flex;
+        margin: auto;
+    }
+}
+
+.boutonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 1rem 0;
+    .voirProjet{
+        color: var(--white);
+        border: none;
+        padding: .025rem 1.65rem;
+        border-radius: 99px;
+        cursor: pointer;
+        text-decoration: none;
+        &:visited{
+            color: var(--white) !important;
+        }
+    }
+    
+    .voirSite{
+        background-color: var(--white);
+        text-decoration: none;
+        padding: .025rem 2rem;
+        border-radius: 99px;
+        cursor: pointer;
+        &:visited{
+            color: var(--black) !important;
+        }
+    }
+}
+
+
+

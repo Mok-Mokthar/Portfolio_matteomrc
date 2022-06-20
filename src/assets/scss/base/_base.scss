@@ -1,0 +1,42 @@
+*{
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    a{    
+        text-decoration: none;
+        &:visited{
+            color: white;
+        }
+    }
+    .voirProjet, .voirSite, .externalLink, .externalLinkMenu{
+        &:visited{
+            color: black !important;
+        }
+    }
+}
+
+
+    //fix
+
+// body{
+//     font-family: var(--body-font);
+//     font-size: var(--normal-font-size);
+//     background-color: var(--body-color);
+//     color: var(--text-color);
+//     transition: .3s; /* For animation dark mode */
+// }
+// h1,h2,h3{
+//     color: var(--title-color);
+//     font-weight: 600;  
+// }
+// ul{
+//     list-style: none;
+// }
+// a{
+//     text-decoration: none;
+// }
+// img{
+//     max-width: 100%;
+//     height: auto;
+// }

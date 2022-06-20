@@ -1,0 +1,13 @@
+footer{
+    .footerCopy{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: var(--black);
+        font-size: var(--smaller-font-size);
+        color: var(--white);
+        padding: 1.25em 0;
+    }
+}

@@ -1,0 +1,41 @@
+.theme-options{
+    display: flex;
+    justify-content: center;
+    div {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        display: inline-block;
+        opacity: 0.5;
+        margin: 0 20px;
+        text-align: center;
+        &.active{
+            opacity: 1;
+        }
+    }
+    .theme-blue{
+        background-color: var(--blue);
+    }
+    
+    .theme-red{
+        background-color: var(--red);
+    }
+    
+    .theme-brown{
+        background-color: var(--brown);
+    }
+
+    // .theme-white{
+    //     background-color: white;
+    // }
+    
+    .theme-purple{
+        background-color: var(--purple);
+    }
+    
+    .theme-green{
+        background-color: var(--green);
+    }
+}
+

@@ -1,0 +1,447 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+* a {
+  text-decoration: none;
+}
+
+* a:visited {
+  color: white;
+}
+
+* .voirProjet:visited, * .voirSite:visited, * .externalLink:visited, * .externalLinkMenu:visited {
+  color: black !important;
+}
+
+.theme-options {
+  display: flex;
+  justify-content: center;
+}
+
+.theme-options div {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  display: inline-block;
+  opacity: 0.5;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.theme-options div.active {
+  opacity: 1;
+}
+
+.theme-options .theme-blue {
+  background-color: var(--blue);
+}
+
+.theme-options .theme-red {
+  background-color: var(--red);
+}
+
+.theme-options .theme-brown {
+  background-color: var(--brown);
+}
+
+.theme-options .theme-purple {
+  background-color: var(--purple);
+}
+
+.theme-options .theme-green {
+  background-color: var(--green);
+}
+
+.nav {
+  background-color: var(--black);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav .burgerSection {
+  margin: 2.5rem 3.8rem 2.5rem 1rem;
+}
+
+.nav .burgerSection .burger {
+  width: 3.125rem;
+  height: 3.125rem;
+  cursor: pointer;
+}
+
+.nav .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.nav .logo img {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.nav .utils {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.3rem;
+}
+
+.nav .utils .contact .user {
+  cursor: pointer;
+  width: 2.25rem;
+  height: 2.813rem;
+}
+
+.nav .utils .settings .gear {
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: .313rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav .utils .settings .gear:hover {
+  animation: rotate 1.5s linear infinite both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.top-to-btm {
+  position: relative;
+}
+
+.icon-position {
+  position: fixed;
+  bottom: 50%;
+  right: 25px;
+  z-index: 20;
+}
+
+.icon-style {
+  background-color: var(--blue);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.icon-style:hover {
+  animation: none;
+  background: var(--white);
+  color: var(--blue);
+  border: 2px solid var(--blue);
+}
+
+.hero .title h1 {
+  text-align: center;
+}
+
+.hero .title-description {
+  margin: 0 8.125rem;
+}
+
+.hero .title-description p {
+  font-weight: var(--subTitle-font-weight);
+  text-align: left;
+}
+
+.tagrossemere {
+  background-image: url(../../assets/other/Vector.svg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.projectsTitle, .projectTitle, .infoProjectTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.categorieButton, .projetButton {
+  display: flex;
+  margin: auto;
+  color: var(--white);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 99px;
+  cursor: pointer;
+}
+
+.categorieButtonContainer, .projetButtonContainer {
+  margin-top: 1rem;
+}
+
+.pictureProjetContainer img, .logoCategorie img, .infoProjectImageContainer img {
+  width: 50%;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+.boutonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.boutonContainer .voirProjet {
+  color: var(--white);
+  border: none;
+  padding: .025rem 1.65rem;
+  border-radius: 99px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.boutonContainer .voirProjet:visited {
+  color: var(--white) !important;
+}
+
+.boutonContainer .voirSite {
+  background-color: var(--white);
+  text-decoration: none;
+  padding: .025rem 2rem;
+  border-radius: 99px;
+  cursor: pointer;
+}
+
+.boutonContainer .voirSite:visited {
+  color: var(--black) !important;
+}
+
+footer .footerCopy {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--black);
+  font-size: var(--smaller-font-size);
+  color: var(--white);
+  padding: 1.25em 0;
+}
+
+:root {
+  --black: rgb(34,34,34);
+  --white: rgb(255,255,255);
+  --grey: rgb(222,222,222);
+  --blue: rgb(73,188,196);
+  --red: rgb(206,83,116);
+  --brown: rgb(200,153,51);
+  --green: rgb(6,214,160);
+  --purple: rgb(209,9,195);
+  --h1-font-size: 5.625rem;
+  --h2-font-size: 2.5rem;
+  --h3-font-size: 5.625rem;
+  --h1-font-weight: 800;
+  --subTitle-font-weight: 400;
+  --summary-font-weight: 800;
+  --normal-font-size: 2rem;
+  --headerCursor-font-size: 2.5rem;
+  --cursor-font-size: 1.5rem;
+  --skill-font-size: 4rem;
+  --subTitle-font-size: 2.5rem;
+  --summary-font-size: 1.875rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+  --subTitle-line-height: 4.375rem;
+}
+
+@media screen and (min-width: 320px) {
+  .nav .burgerSection {
+    margin: 2.5rem 3.8rem 2.5rem 1rem;
+  }
+  .nav .burgerSection .burger {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .nav .logo img {
+    width: 4.375rem;
+    height: auto;
+  }
+  .nav .utils .contact .user {
+    width: 2rem;
+    height: 2rem;
+  }
+  .nav .utils .settings .gear {
+    margin-right: 1rem;
+  }
+  .nav .utils .settings .gear:hover {
+    animation: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .nav .burgerSection {
+    margin: 2.5rem 3.8rem 2.5rem 3rem;
+  }
+  .nav .burgerSection .burger {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .nav .logo img {
+    width: 6rem;
+    height: auto;
+  }
+  .nav .utils .contact .user {
+    width: 2rem;
+    height: 2rem;
+  }
+  .nav .utils .settings .gear {
+    margin-right: 3rem;
+  }
+  .nav .utils .settings .gear:hover {
+    animation: none;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .nav .burgerSection {
+    margin: 2.5rem 3.8rem 2.5rem 3rem;
+  }
+  .nav .burgerSection .burger {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .nav .logo img {
+    width: 6rem;
+    height: auto;
+  }
+  .nav .utils .contact .user {
+    width: 2rem;
+    height: 2rem;
+  }
+  .nav .utils .settings .gear {
+    margin-right: 3rem;
+  }
+  .nav .utils .settings .gear:hover {
+    animation: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav .burgerSection {
+    margin: 2.5rem 3.8rem 2.5rem 3rem;
+  }
+  .nav .burgerSection .burger {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .nav .logo img {
+    width: 6rem;
+    height: auto;
+  }
+  .nav .utils .contact .user {
+    width: 2rem;
+    height: 2rem;
+  }
+  .nav .utils .settings .gear {
+    margin-right: 3rem;
+  }
+  .nav .utils .settings .gear:hover {
+    animation: rotate 1.5s linear infinite both;
+  }
+}
+
+.App.theme-blue .title, .App.theme-blue .textColor {
+  color: var(--blue);
+}
+
+.App.theme-blue .icon-style, .App.theme-blue .categorieButton, .App.theme-blue .projetButton, .App.theme-blue .voirProjet {
+  background-color: var(--blue);
+}
+
+.App.theme-blue .icon-style:hover {
+  color: var(--blue);
+  border: 2px solid var(--blue);
+}
+
+.App.theme-blue .voirSite {
+  border: solid 2px var(--blue);
+}
+
+.App.theme-red .title, .App.theme-red .textColor {
+  color: var(--red);
+}
+
+.App.theme-red .icon-style, .App.theme-red .categorieButton, .App.theme-red .projetButton, .App.theme-red .voirProjet {
+  background-color: var(--red);
+}
+
+.App.theme-red .icon-style:hover {
+  color: var(--red);
+  border: 2px solid var(--red);
+}
+
+.App.theme-red .voirSite {
+  border: solid 2px var(--red);
+}
+
+.App.theme-brown .title, .App.theme-brown .textColor {
+  color: var(--brown);
+}
+
+.App.theme-brown .icon-style, .App.theme-brown .categorieButton, .App.theme-brown .projetButton, .App.theme-brown .voirProjet {
+  background-color: var(--brown);
+}
+
+.App.theme-brown .icon-style:hover {
+  color: var(--brown);
+  border: 2px solid var(--brown);
+}
+
+.App.theme-brown .voirSite {
+  border: solid 2px var(--brown);
+}
+
+.App.theme-purple .title, .App.theme-purple .textColor {
+  color: var(--purple);
+}
+
+.App.theme-purple .icon-style, .App.theme-purple .categorieButton, .App.theme-purple .projetButton, .App.theme-purple .voirProjet {
+  background-color: var(--purple);
+}
+
+.App.theme-purple .icon-style:hover {
+  color: var(--purple);
+  border: 2px solid var(--purple);
+}
+
+.App.theme-purple .voirSite {
+  border: solid 2px var(--purple);
+}
+
+.App.theme-green .title, .App.theme-green .textColor {
+  color: var(--green);
+}
+
+.App.theme-green .icon-style, .App.theme-green .categorieButton, .App.theme-green .projetButton, .App.theme-green .voirProjet {
+  background-color: var(--green);
+}
+
+.App.theme-green .icon-style:hover {
+  color: var(--green);
+  border: 2px solid var(--green);
+}
+
+.App.theme-green .voirSite {
+  border: solid 2px var(--green);
+}

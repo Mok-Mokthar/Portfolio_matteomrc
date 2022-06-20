@@ -1,0 +1,49 @@
+:root{
+
+    --black: rgb(34,34,34);
+    --white: rgb(255,255,255);
+    --grey: rgb(222,222,222);
+    --blue: rgb(73,188,196);
+    --red: rgb(206,83,116);
+    --brown: rgb(200,153,51);
+    --green: rgb(6,214,160);
+    --purple: rgb(209,9,195);
+
+    // --first-color: hsl(var(--hue), var(--sat), var(--lig));
+    // --first-color-alt: hsl(var(--hue), var(--sat), 57%);
+    // --title-color: hsl(var(--hue), 12%, 15%);
+    // --text-color: hsl(var(--hue), 12%, 45%);
+    // --text-color-light: hsl(var(--hue), 8%, 75%);
+    // --text-color-lighten: hsl(var(--hue), 8%, 92%);
+    // --body-color: hsl(var(--hue), 100%, 99%);
+    // --container-color: #fff;
+
+    --h1-font-size: 5.625rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 5.625rem;
+    
+    --h1-font-weight: 800;
+    --subTitle-font-weight: 400;
+    --summary-font-weight: 800;
+
+    --normal-font-size: 2rem;
+    --headerCursor-font-size: 2.5rem;
+    --cursor-font-size: 1.5rem;
+
+    --skill-font-size: 4rem;
+
+    --subTitle-font-size: 2.5rem;
+    --summary-font-size: 1.875rem;
+
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+    
+    --subTitle-line-height: 4.375rem;
+    // @media screen and (min-width: 968px){
+    //     --h2-font-size: 1.5rem;
+    //     --h3-font-size: 1.25rem;
+    //     --normal-font-size: 1rem;
+    //     --small-font-size: .875rem;
+    //     --smaller-font-size: .813rem;
+    // }
+}
