@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import { FiSettings, FiUser } from 'react-icons/fi';
 import { BsList } from "react-icons/bs";
 
-import logoWhite from '../../../assets/logo/LogoBlanc.png';
+// import logoWhite from '../../../assets/logo/LogoBlanc.png';
 import logoBlue from '../../../assets/logo/LogoBleu.png';
 import logoBrown from '../../../assets/logo/LogoBrown.png';
 import logoRed from '../../../assets/logo/LogoRouge.png';

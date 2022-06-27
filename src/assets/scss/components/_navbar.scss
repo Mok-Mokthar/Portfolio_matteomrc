@@ -33,7 +33,8 @@
         justify-content: space-around;
         gap: 1.3rem;
         .contact{
-            .user{
+            a .user{
+                color: var(--white);
                 cursor: pointer;
                 width: 2.25rem;
                 height: 2.813rem;

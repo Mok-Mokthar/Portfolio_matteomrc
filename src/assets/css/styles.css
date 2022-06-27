@@ -12,7 +12,11 @@
   color: white;
 }
 
-* .voirProjet:visited, * .voirSite:visited, * .externalLink:visited, * .externalLinkMenu:visited {
+* a {
+  color: var(--black);
+}
+
+* a .voirProjet:visited, * a .voirSite:visited, * a .externalLink:visited, * a .externalLinkMenu:visited {
   color: black !important;
 }
 
@@ -92,7 +96,8 @@
   gap: 1.3rem;
 }
 
-.nav .utils .contact .user {
+.nav .utils .contact a .user {
+  color: var(--white);
   cursor: pointer;
   width: 2.25rem;
   height: 2.813rem;

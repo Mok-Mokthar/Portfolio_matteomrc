@@ -9,10 +9,14 @@
             color: white;
         }
     }
-    .voirProjet, .voirSite, .externalLink, .externalLinkMenu{
-        &:visited{
-            color: black !important;
+    a{
+        color: var(--black);
+        .voirProjet, .voirSite, .externalLink, .externalLinkMenu{
+            &:visited{
+                color: black !important;
+            }
         }
+
     }
 }
 
