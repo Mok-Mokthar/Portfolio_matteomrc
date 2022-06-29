@@ -13,9 +13,6 @@ import logoPurple from '../../../assets/logo/LogoViolet.png';
 
 import {Link} from 'react-router-dom';
 
-
-import { Spin as Hamburger } from 'hamburger-react';
-
 const Navbar = ({colorTheme, setColorTheme}) => {
 
   const [openSettings, setOpenSettings] = useState(false)

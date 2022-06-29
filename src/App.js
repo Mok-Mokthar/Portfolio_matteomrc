@@ -11,7 +11,7 @@ import Project from './components/Projects/Project/Project.js';
 import Contact from './components/Contact/Contact.js';
 import InfoProject from './components/Projects/InfoProject/InfoProject.js';
 
-import { projets } from './components/Constants/Constants.js';
+// import { projets } from './components/Constants/Constants.js';
 
 
 import '../src/assets/css/styles.css';

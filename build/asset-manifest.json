@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee526893.css",
+    "main.js": "/static/js/main.bde263b0.js",
+    "static/media/OpenSans-ExtraBoldItalic.ttf": "/static/media/OpenSans-ExtraBoldItalic.834e159ebdb3097d4619.ttf",
+    "static/media/cooperhewitt-light.ttf": "/static/media/cooperhewitt-light.d3d6b044d91bb7f228e2.ttf",
+    "static/media/Yellowtail-Regular.ttf": "/static/media/Yellowtail-Regular.68015177cbf9575be4a4.ttf",
+    "static/media/LogoVert.png": "/static/media/LogoVert.d4e2a797f56fd4871dce.png",
+    "static/media/LogoBrown.png": "/static/media/LogoBrown.a6e633e662dc26b321e7.png",
+    "static/media/LogoRouge.png": "/static/media/LogoRouge.a271adc2f1f8ffaa22f1.png",
+    "static/media/LogoViolet.png": "/static/media/LogoViolet.2d407227ab33986b7727.png",
+    "static/media/LogoBleu.png": "/static/media/LogoBleu.751b8891e09074b5cffc.png",
+    "index.html": "/index.html",
+    "static/media/Vector.svg": "/static/media/Vector.6922d2d8c7db9c51d7c57d5457dae312.svg",
+    "main.ee526893.css.map": "/static/css/main.ee526893.css.map",
+    "main.bde263b0.js.map": "/static/js/main.bde263b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee526893.css",
+    "static/js/main.bde263b0.js"
+  ]
+}
